@@ -1,0 +1,12 @@
+# Tipos de Variáveis
+
+- Numéricas : Contínuas e Discretas
+>> Contínuas -> Números reais ( float )
+>> Discretas -> Valores inteiros
+
+- Categóricas: Strings
+>> Nominal: Dados não mensuraveis. Ex: cor do olho, id
+>> Ordenal: Oedenação. Ex: P, M , G
+
+# Importação das bibliotecas
+
