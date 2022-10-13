@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="Add arquivos">
-      <change afterPath="$PROJECT_DIR$/Pré-processamento/Anotações" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pré-processamento/main.py" afterDir="false" />
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="Pré-processamento parte 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pré-processamento/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pré-processamento/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Alysson/Desktop/estudar/Tecnologia/Modelos_Machine_Learning",
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
@@ -63,7 +64,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665519840598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pré-processamento parte 1">
+      <created>1665584001996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665584001996</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pré-processamento parte 1">
+      <created>1665584012715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665584012715</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add arquivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add arquivos" />
+    <MESSAGE value="Pré-processamento parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pré-processamento parte 1" />
   </component>
 </project>
