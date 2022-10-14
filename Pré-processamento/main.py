@@ -186,8 +186,8 @@ X_census_treinamento, X_census_teste, y_census_treinamento, y_census_teste = tra
 
 import pickle
 
-with open('credit.pkl', mode= 'wb') as f:
-    pickle.dump([X_credit_treinamento, X_credit_teste, y_credit_treinamento, y_credit_teste], f)
+f1 = open('credit.pkl', mode= 'wb')
+pickle.dump([X_credit_treinamento, X_credit_teste, y_credit_treinamento, y_credit_teste], f1)
 
-with open('census.pkl', mode= 'wb') as f:
-    pickle.dump([X_census_treinamento, X_census_teste, y_census_treinamento, y_census_teste], f)
+f2 = open('census.pkl', mode= 'wb')
+pickle.dump([X_census_treinamento, X_census_teste, y_census_treinamento, y_census_teste], f2)
