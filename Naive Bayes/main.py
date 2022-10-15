@@ -48,4 +48,51 @@ previsao = naive_risco_credito.predict([[0,0,1,2],[2,0,0,0]])
 #Base credit data
 import pickle
 file = open('./Bases de dados/credit.pkl', 'rb')
-X_credit_treinamento, X_credit_teste, y_credit_treinamento, y_credit_teste = pickle.load(file)
+
+X_credit_treinamento, y_credit_treinamento, X_credit_teste, y_credit_teste = pickle.load(file)
+
+X_credit_treinamento.shape, y_credit_treinamento.shape
+
+X_credit_teste.shape, y_credit_teste.shape
+
+naive_credit_data = GaussianNB()
+naive_credit_data.fit(X_credit_treinamento,y_credit_treinamento)
+
+previsao_credit = naive_credit_data.predict(X_credit_teste)
+
+y_credit_teste
+
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
+accuracy_score(y_credit_teste,previsao_credit)
+confusion_matrix(y_credit_teste,previsao_credit)
+
+from yellowbrick.classifier import ConfusionMatrix
+cm = ConfusionMatrix(naive_credit_data)
+cm.fit(X_credit_treinamento,y_credit_treinamento)
+cm.score(X_credit_teste, y_credit_teste)
+cm.show()
+
+print(classification_report(y_credit_teste,previsao_credit))
+
+#Census
+
+import pickle
+
+file = open('./Bases de dados/census.pkl', 'rb')
+X_census_treinamento, y_census_treinamento, X_census_teste, y_census_teste = pickle.load(file)
+
+X_census_treinamento.shape, y_census_treinamento.shape
+X_census_teste.shape, y_census_teste.shape
+
+naive_census = GaussianNB()
+
+naive_census.fit(X_census_treinamento, y_census_treinamento)
+previsao_census = naive_census.predict(X_census_teste)
+previsao_census
+
+y_census_teste
+
+accuracy_score(y_census_teste, previsao_census)
+print(classification_report(y_census_teste, previsao_census))
+
