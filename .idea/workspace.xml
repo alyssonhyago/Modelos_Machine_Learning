@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="Pré-processamento parte 3">
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="modelo naive bayes">
+      <change afterPath="$PROJECT_DIR$/Arvore de decisao/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Naive Bayes/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naive Bayes/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665780343089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modelo naive bayes">
+      <created>1665838982200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665838982200</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +172,7 @@
     <MESSAGE value="Pré-processamento parte 1" />
     <MESSAGE value="Pré-processamento parte 2" />
     <MESSAGE value="Pré-processamento parte 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pré-processamento parte 3" />
+    <MESSAGE value="modelo naive bayes" />
+    <option name="LAST_COMMIT_MESSAGE" value="modelo naive bayes" />
   </component>
 </project>
