@@ -59,3 +59,29 @@ previsores = ['income', 'age', 'loan']
 fig, axes = plt.subplots(nrows=1,ncols=1,figsize = (20,20))
 tree.plot_tree(arvore_credit, feature_names= previsores, class_names= ['0','1'], filled=True)
 fig.savefig('arvore_credit.png')
+
+#Random Forest
+
+from sklearn.ensemble import RandomForestClassifier
+
+#Base credit
+
+random_forest_credit = RandomForestClassifier(n_estimators=40,criterion='entropy',random_state=0)
+random_forest_credit.fit(X_credit_treinamento,y_credit_treinamento)
+previsoes_random = random_forest_credit.predict(X_credit_teste)
+
+accuracy_score(y_credit_teste,previsoes_random)
+print(classification_report(y_credit_teste,previsoes_random))
+
+#Censu
+
+file = open('./Bases de dados/census.pkl', 'rb')
+X_censu_treinamento, y_censu_treinamento, X_censu_teste, y_censu_teste = pickle.load(file)
+
+random_forest_censu = RandomForestClassifier(n_estimators=100, criterion='entropy',random_state=0)
+random_forest_censu.fit(X_censu_treinamento,y_censu_treinamento)
+
+previsoes_random_censu = random_forest_censu.predict(X_censu_teste)
+
+accuracy_score(y_censu_teste,previsoes_random_censu)
+print(classification_report(y_censu_teste,previsoes_random_censu))

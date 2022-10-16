@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="modelo naive bayes">
-      <change afterPath="$PROJECT_DIR$/Arvore de decisao/main.py" afterDir="false" />
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="modelo arvore de decisão parte 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arvore de decisao/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arvore de decisao/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665838982200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="modelo arvore de decisão parte 1">
+      <created>1665841094155</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665841094155</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +180,7 @@
     <MESSAGE value="Pré-processamento parte 2" />
     <MESSAGE value="Pré-processamento parte 3" />
     <MESSAGE value="modelo naive bayes" />
-    <option name="LAST_COMMIT_MESSAGE" value="modelo naive bayes" />
+    <MESSAGE value="modelo arvore de decisão parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="modelo arvore de decisão parte 1" />
   </component>
 </project>
