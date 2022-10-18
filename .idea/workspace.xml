@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="RNA - Rede Neural Artificial">
-      <change afterPath="$PROJECT_DIR$/Avaliacao de modelos/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="Atualizando o Readme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Avaliacao de modelos/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Avaliacao de modelos/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666100234697</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Atualizando o Readme">
+      <created>1666100831570</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666100831570</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +212,7 @@
     <MESSAGE value="Random Forest" />
     <MESSAGE value="SVM - Support Vector Machine" />
     <MESSAGE value="RNA - Rede Neural Artificial" />
-    <option name="LAST_COMMIT_MESSAGE" value="RNA - Rede Neural Artificial" />
+    <MESSAGE value="Atualizando o Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando o Readme" />
   </component>
 </project>
