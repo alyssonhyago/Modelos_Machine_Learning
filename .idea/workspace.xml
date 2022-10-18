@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="SVM - Support Vector Machine">
-      <change afterPath="$PROJECT_DIR$/Redes Neurais/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="RNA - Rede Neural Artificial">
+      <change afterPath="$PROJECT_DIR$/Avaliacao de modelos/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665924406118</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="RNA - Rede Neural Artificial">
+      <created>1666100234697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666100234697</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +204,7 @@
     <MESSAGE value="modelo arvore de decisão parte 1" />
     <MESSAGE value="Random Forest" />
     <MESSAGE value="SVM - Support Vector Machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="SVM - Support Vector Machine" />
+    <MESSAGE value="RNA - Rede Neural Artificial" />
+    <option name="LAST_COMMIT_MESSAGE" value="RNA - Rede Neural Artificial" />
   </component>
 </project>
