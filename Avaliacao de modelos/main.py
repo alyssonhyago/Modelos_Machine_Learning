@@ -8,6 +8,7 @@ Data: 18/10/2022
 
 '''
 import numpy as np
+import pandas as pd
 
 '''
 Avaliação dos algortimos obtidos
@@ -64,3 +65,89 @@ melhores_paramentros = grid_search.best_params_
 melhor_resultado = grid_search.best_score_
 print(melhores_paramentros)
 print(melhor_resultado)
+
+#Random forest
+
+parametros = {'criterion': ['gini', 'entropy'],
+              'n_estimators': [10, 40, 100, 150],
+              'min_samples_split': [2,5,10],
+              'min_samples_leaf': [1,5,10],
+              }
+
+grid_search = GridSearchCV(estimator=RandomForestClassifier(), param_grid=parametros)
+grid_search.fit(X_credit, y_credit)
+melhores_paramentros = grid_search.best_params_
+melhor_resultado = grid_search.best_score_
+print(melhores_paramentros)
+print(melhor_resultado)
+
+#Knn
+
+parametros = {'n_neighbors': [3,5,10,20],
+              'p': [1,2]}
+
+grid_search = GridSearchCV(estimator=KNeighborsClassifier(), param_grid=parametros)
+grid_search.fit(X_credit, y_credit)
+melhores_paramentros = grid_search.best_params_
+melhor_resultado = grid_search.best_score_
+print(melhores_paramentros)
+print(melhor_resultado)
+
+#SVM
+
+parametros = {'tol': [0.001, 0.0001, 0.00001],
+               'C': [1.0, 1.5, 2.0],
+               'kernel': ['rbf', 'linear', 'poly', 'sigmoid']}
+
+grid_search = GridSearchCV(estimator=SVC(), param_grid=parametros)
+grid_search.fit(X_credit, y_credit)
+melhores_paramentros = grid_search.best_params_
+melhor_resultado = grid_search.best_score_
+print(melhores_paramentros)
+print(melhor_resultado)
+
+
+#Redes Neurais
+
+
+
+parametros = {'activation': ['relu', 'logistic', 'tahn'],
+              'solver':['adam','sgd'],
+              'batch_size':[10,56]}
+
+grid_search = GridSearchCV(estimator=MLPClassifier(), param_grid=parametros)
+grid_search.fit(X_credit, y_credit)
+melhores_paramentros = grid_search.best_params_
+melhor_resultado = grid_search.best_score_
+print(melhores_paramentros)
+print(melhor_resultado)
+
+
+#Validação cruzada
+from sklearn.model_selection import cross_val_score, KFold
+import pandas as pd
+resultados_arvore = []
+resultados_random = []
+
+for i in range(30):
+    kfold = KFold(n_splits=10, shuffle=True, random_state=i)
+
+    arvore = DecisionTreeClassifier(criterion='entropy', min_samples_leaf=1, min_samples_split=5, splitter='best')
+    scores = cross_val_score(arvore,X_credit,y_credit, cv=kfold)
+    print(scores)
+    print(scores.mean())
+    resultados_arvore.append(scores.mean())
+
+    random_forest = RandomForestClassifier(criterion='entropy', min_samples_leaf=1, min_samples_split=5, n_estimators=10)
+    scores = cross_val_score(random_forest, X_credit, y_credit, cv=kfold)
+    resultados_random.append(scores.mean())
+
+
+#Avaliação dos resultados
+len(resultados_arvore)
+resultados = pd.DataFrame({'Arvore ': resultados_arvore, 'Random forest': resultados_random})
+print(resultados)
+
+resultados.describe() # descrição estatistica observar o std sendo o meor para maior consistencia e ver mean e std melhor
+
+resultados.var() #-> variancia
