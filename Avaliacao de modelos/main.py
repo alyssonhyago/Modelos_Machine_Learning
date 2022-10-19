@@ -152,11 +152,17 @@ resultados.describe() # descrição estatistica observar o std sendo o meor para
 
 resultados.var() #-> variancia
 
-'''
-teste de hipotese 
+#Teste de normalidade nos resultados
 
-se p-value >= alpha : nao rejeita a hipose nula(H0)
-se p-vaue < alpha: rejeita a hipotese nula (H0) ( temos evidencias)
 
-'''
+#hipotese nulo significa que os dados estao na distribuição normal, ou seja , p >= 0.05
+import seaborn as sns
+from scipy.stats import shapiro
+alpha = 0.05
+shapiro(resultados_arvore)
+shapiro(resultados_random)
 
+sns.displot(resultados_arvore,kind='kde')
+sns.displot(resultados_random, kind='kde')
+
+#Teste ANOVA
