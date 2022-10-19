@@ -151,3 +151,12 @@ print(resultados)
 resultados.describe() # descrição estatistica observar o std sendo o meor para maior consistencia e ver mean e std melhor
 
 resultados.var() #-> variancia
+
+'''
+teste de hipotese 
+
+se p-value >= alpha : nao rejeita a hipose nula(H0)
+se p-vaue < alpha: rejeita a hipotese nula (H0) ( temos evidencias)
+
+'''
+
