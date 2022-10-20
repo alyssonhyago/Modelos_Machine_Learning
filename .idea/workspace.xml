@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="Atualizando read parte2.2">
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="add pate final de avaliação de algoritmos">
+      <change afterPath="$PROJECT_DIR$/Regressao/linear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Avaliacao de modelos/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Avaliacao de modelos/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Alysson/Desktop/estudar/Tecnologia/Modelos_Machine_Learning",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alysson/Desktop/estudar/Tecnologia/Modelos_Machine_Learning&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Modelos_Machine_Learning" />
@@ -222,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666184876729</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add pate final de avaliação de algoritmos">
+      <created>1666187237531</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666187237531</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add pate final de avaliação de algoritmos">
+      <created>1666187246996</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666187246996</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +267,7 @@
     <MESSAGE value="Atualizando read parte2" />
     <MESSAGE value="Atualizando read parte2.1" />
     <MESSAGE value="Atualizando read parte2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizando read parte2.2" />
+    <MESSAGE value="add pate final de avaliação de algoritmos" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pate final de avaliação de algoritmos" />
   </component>
 </project>
