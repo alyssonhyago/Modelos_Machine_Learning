@@ -14,7 +14,7 @@ Neste repositório estam presentes Modelos Supervisionados de Classificação e 
 * Regressão
   * Regressão Linear
   * Regressão Multipla
-  * Regressão Polinomial
+  
 ---
 
 ## Avavaliação dos algoritmos

@@ -92,3 +92,14 @@ grafico1 = px.scatter(x=X_casas_treinamento.ravel(), y=y_casas_treinamento)
 grafico2 = px.line(x=X_casas_treinamento.ravel(), y=previsoes)
 grafico3 = go.Figure(data= grafico1.data + grafico2.data)
 grafico3.show()
+
+#Metricas
+
+previsoes_teste = regressor_casas.predict(X_casas_teste)
+
+abs(y_casas_teste - previsoes_teste).mean()
+
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+
+mean_absolute_error(y_casas_teste,previsoes_teste)
+mean_squared_error(y_casas_teste,previsoes_teste)

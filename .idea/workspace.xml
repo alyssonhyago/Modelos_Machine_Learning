@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="add pate final de avaliação de algoritmos">
-      <change afterPath="$PROJECT_DIR$/Regressao/linear.py" afterDir="false" />
+    <list default="true" id="abdb2cb3-d333-4951-a66d-4d3b20e63751" name="Changes" comment="add modelo regressão">
+      <change afterPath="$PROJECT_DIR$/Regressao/multipla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Regressao/polinomial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regressao/linear.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regressao/linear.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666187246996</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add modelo regressão">
+      <created>1666268301749</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666268301749</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,6 +277,7 @@
     <MESSAGE value="Atualizando read parte2.1" />
     <MESSAGE value="Atualizando read parte2.2" />
     <MESSAGE value="add pate final de avaliação de algoritmos" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pate final de avaliação de algoritmos" />
+    <MESSAGE value="add modelo regressão" />
+    <option name="LAST_COMMIT_MESSAGE" value="add modelo regressão" />
   </component>
 </project>
